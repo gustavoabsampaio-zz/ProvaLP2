@@ -1,4 +1,6 @@
-class Cavalo{
+import java.io.Serializable;
+
+class Cavalo implements Serializable{
 	private int x;
 	private int y;
 
@@ -6,12 +8,4 @@ class Cavalo{
 		x = xis;
 		y = yis;
 	}
-
-	int getX(){
-		return this.x;
-	}
-
-	int getY(){
-		return this.y;
-	}	
 }
